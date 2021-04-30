@@ -1,0 +1,54 @@
+.gradient-semi-chart {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.gradient-semi-chart .chart-bg {
+    position: relative;
+    display: block;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+}
+
+.gradient-semi-chart .chart-bg .chart-ele {
+    position: relative;
+    display: block;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    top: 5px;
+    left: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    background-image: url(img/chart1.png);
+}
+
+.gradient-semi-chart .chart-bg .chart-label {
+    color: #21D102;
+    position: absolute;
+    display: block;
+    bottom: 20%;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.gradient-semi-chart .chart-bg .chart-caption {
+    color: #515151;
+    font-size: 14px;
+    position: absolute;
+    display: block;
+    bottom: 10%;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
