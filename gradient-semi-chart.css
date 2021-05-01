@@ -22,12 +22,28 @@
     display: block;
     width: calc(100% - 10px);
     height: calc(100% - 10px);
-    top: 5px;
-    left: 5px;
+    top: 3px;
+    left: 3px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;
     background-image: url(img/chart1.png);
+}
+
+.gradient-semi-chart .chart-bg .chart-ele.chart1 {
+    background-image: url(img/chart1.png);
+}
+.gradient-semi-chart .chart-bg .chart-ele.chart2 {
+    background-image: url(img/chart2.png);
+}
+.gradient-semi-chart .chart-bg .chart-ele.chart3 {
+    background-image: url(img/chart3.png);
+}
+.gradient-semi-chart .chart-bg .chart-ele.chart4 {
+    background-image: url(img/chart4.png);
+}
+.gradient-semi-chart .chart-bg .chart-ele.chart5 {
+    background-image: url(img/chart5.png);
 }
 
 .gradient-semi-chart .chart-bg .chart-label {
@@ -37,7 +53,7 @@
     bottom: 20%;
     text-align: center;
     width: 100%;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -49,6 +65,5 @@
     bottom: 10%;
     text-align: center;
     width: 100%;
-    font-size: 22px;
     font-weight: bold;
 }
